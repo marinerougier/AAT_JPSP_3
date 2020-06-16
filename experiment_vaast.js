@@ -416,7 +416,7 @@ var Gene_Instr = {
     "<br>" +
     "- Task 1: The Video Game task (approx. 13 min)" +
     "<br>" +
-    "- Task 2: The recognition task (approx. 15 min)" +
+    "- Task 2: The recognition task (approx. 7 min)" +
     "<br>" +
     "<br>" +
     "To finish, you will have to answer a few questions (approx. 1 min). </p>" +
