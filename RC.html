@@ -121,8 +121,8 @@
     /* Randomize RC order */
     var genColor = function (colorID, colorName) { return "<span style='color:" + colorID + "'><b>" + colorName + "</b></span>" };
 
-    var colorOrder = colorOrder == null ? _.sample(["blueFirst", "yellowFirst"]) : colorOrder;
-    //var colorOrder = colorOrder == null ? _.sample(["blueFirst"]) : colorOrder;
+    //var colorOrder = colorOrder == null ? _.sample(["blueFirst", "yellowFirst"]) : colorOrder;
+    var colorOrder = colorOrder == null ? _.sample(["yellowFirst"]) : colorOrder;
 
     if (colorOrder == "blueFirst") {
         var color1 = genColor("#2a57ea", "blue");
